@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Hugsar"
-title: "{ Hugsar }"
+title: "Hugsar"
 description: "Website for Bristol-based band, Hugsar"
 keywords: "Hugsar, Tom Grundman, Josefina Bosisio"
 favicon: "/img/favicon.ico"
