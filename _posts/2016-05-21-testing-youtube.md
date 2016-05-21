@@ -9,7 +9,7 @@ tags: ['tutorial']
 we are here to test the embedded you tube player
 
 
-{% include youtube.html %}
+{% include youtube.html id="3rNfc79d6Ec" %}
 
  
   

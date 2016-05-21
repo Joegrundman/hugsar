@@ -134,7 +134,7 @@ email: "tom@paintedocean.org"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Hugsar is Bristol's most exciting new band made up of the most talented musicians'"
+author_blurb: "Hugsar is Bristol's most exciting new band made up of the most talented musicians"
 author_blurb_image: "/img/author.png"
 
 ##################
