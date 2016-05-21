@@ -184,8 +184,7 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-# gems:
-#   - jekyll-paginate
-#   - jemoji
-#   - jekyll-youtube
+gems:
+  - jekyll-paginate
+  - jemoji
 
