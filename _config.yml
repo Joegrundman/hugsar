@@ -39,7 +39,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/favicon.ico"
 
 background-img: "../img/hugsar-live-1-edit.png"
 
@@ -135,7 +135,7 @@ email: "tom@paintedocean.org"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Hugsar is Bristol's most exciting new band made up of the most talented musicians"
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/hugsar-name-transp-pale.png"
 
 ##################
 # Social Buttons #
@@ -157,7 +157,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/hugsar-logo-orig.png"
 
 ################################################################################
 
