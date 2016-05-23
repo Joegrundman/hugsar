@@ -41,7 +41,8 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/favicon.ico"
 
-background-img: "../img/hugsar-live-1-edit.png"
+# background-img: "../img/hugsar-live-1-edit.png"
+background-img: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/custard-cream.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -84,6 +85,8 @@ icon-192p: "/img/web-app/icon-192p.png"
 ########
 # Blog #
 ########
+
+# blog-background-img: "../img/hugsar-live-1-edit.png"
 
 post-preview-words: 96
 
