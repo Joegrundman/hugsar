@@ -161,8 +161,8 @@ social:
   #   url: "https://github.com/Joegrundman/hugsar"
   # - title: "bitcoin"
   #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+  # - title: "rss"
+  #   url: "/feed.xml"
 
 ############
 # 404 page #
