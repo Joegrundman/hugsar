@@ -164,6 +164,7 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
+    font-family:'Helvetica', sans-serif;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
