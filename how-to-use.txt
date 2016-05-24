@@ -1,0 +1,62 @@
+Hello
+=====
+
+Here there will be the guidelines for managing the site
+
+there are only three files and one folder you will need to deal with often
+
+the most important file is: 
+
+
+_config.yml
+===========
+
+This contains almost all the setup, background images, quite a lot of the text
+
+When making changes you need to stick to the format exactly
+
+Also changes to this file won't appear until you restart the jekyll server
+
+about.html
+==========
+this contains the text that will appear in the about box. You may change it at will and
+format it as you like. It's an html file, but also accepts Markdown formatting
+
+
+contact.html
+============
+this contains your contact info. 
+
+_posts
+======
+
+this folder is how you make new blog posts
+
+it's very simple.
+
+To make a new post you simply make a new file in this folder. It must first have the date
+ in the filename. The date must be correctly formatted. This is how the blog sorts the order
+  of your posts. Then comes the title of the post, and lastly the format type. The jekyll engine
+  does the rest.
+  
+  the filename format is:
+  
+  YYYY-MM-DD-my-blog-post-name.md
+  
+  (.md is for markdown format)
+  
+  Your blog posts can be handled using any of three languages. Markdown, textile, liquid.
+  
+  markdown is the one that I recommend.  It is an extremely easy and brilliant formatting
+   system, based on how people naturally format emails. It takes minutes to learn.
+  
+  i made a markdown previewer, which you can use to see how it will look 
+  (and there are lots of better ones out there). But the actual .md 
+  text can just be sent as an email, not even as an attachment
+  
+  markdown previewer:
+  http://codepen.io/rambutan/full/QNMamd
+  
+  
+
+

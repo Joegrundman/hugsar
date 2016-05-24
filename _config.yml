@@ -42,8 +42,8 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/favicon.ico"
 
 # background-img: "../img/hugsar-live-1-edit.png"
-background-img: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/custard-cream.jpg"
-
+# background-img: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/custard-cream.jpg"
+background-img: "../img/custard-cream-sm-tile.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
@@ -55,11 +55,14 @@ loop-count: False # Set False for infinite loop, or set any number for finite lo
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+lines: # You can add HTML Tags in the Text:: these are rendered in order BOTTOM to TOP
+  - text: "We make music"
+  - text: "We are a band"
+  - text: "We are Hugsar"
 
-me-img: "/img/hugsar-logo-orig.png"
+
+
+me-img: "/img/hugsar-name-transp.png"
 
 ##############################
 # Color the browser elements #
@@ -86,7 +89,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-# blog-background-img: "../img/hugsar-live-1-edit.png"
+blog-background-img: "../img/hugsar-live-1-edit.png"
 
 post-preview-words: 96
 
@@ -112,16 +115,19 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/hugsar-bass.png"
+    date: "September 2016"
+    description: "Playing at Hammersmith Arena!"
+  - image: "/img/timeline/hugsar-guitar.png"
+    date: " July 2016"
+    description: "Gig at pub in Bristol"
+  - image: "/img/timeline/hugsar-drummer.png"
+    date: "June 2016"
+    description: "Recording new EP"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/hugsar-vocals.png"
 
 ###########
 # Contact #
