@@ -33,13 +33,13 @@ author: "Hugsar"
 title: "Hugsar"
 description: "Website for Bristol-based band, Hugsar"
 keywords: "Hugsar, Tom Grundman, Josefina Bosisio"
-favicon: "/img/favicon.ico"
+favicon: "/img/favicon.png"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/favicon.ico"
+black-favicon: "/img/favicon.png"
 
 # background-img: "../img/hugsar-live-1-edit.png"
 # background-img: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/custard-cream.jpg"
@@ -146,7 +146,7 @@ email: "y.hugsar@gmail.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Hugsar is Bristol's most exciting new band made up of the most talented musicians"
-author_blurb_image: "/img/hugsar-name-transp-pale.png"
+author_blurb_image: "/img/hugsar-name-transp.png"
 
 ##################
 # Social Buttons #
