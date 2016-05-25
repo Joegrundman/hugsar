@@ -41,8 +41,6 @@ favicon: "/img/favicon.png"
 
 black-favicon: "/img/favicon.png"
 
-# background-img: "../img/hugsar-live-1-edit.png"
-# background-img: "https://s3.eu-central-1.amazonaws.com/neon-rambutan/custard-cream.jpg"
 background-img: "../img/custard-cream-sm-tile.jpg"
 ##############################
 # Dynamic Text on the Header #
