@@ -3,89 +3,7 @@ $red-tube-on: #ffbb99;
 $red-glow: rgba(255, 0, 84, 1);
 $font: sans-serif;
 
-#rambutan-logo-container {
-  background-color: #141414;
- // background-color: $primary-color;
-  width: 12em;
-  height: 6em;
-  border: 1px solid #000;
-  border-radius: 1em;
-}
-
-#rambutan-logo-border {
-  border: 2px solid $red-tube-off;
-  border-radius: 0.8em;
-  margin: 0.5em;
-  padding: 0.5em;
-  animation: rambutan-red-neon-tubes 0.5s 2s forwards;
-}
-
-
-#rambutan-logo-text {
-  position: absolute;
-  left: 3.5em;
-  top: 0.5em;
-  color: $red-tube-off;
-  font-family: $font;
-  font-size: 14px;
-  animation: rambutan-red-neon-text 0.5s 3s forwards;
-}
-
-#rambutan-logo {
-  position: relative;
-  border: 2px solid $red-tube-off;
-  height: 3em;;
-  width: 2.5em;
-  border-radius: 43%;
-  margin-left: 1em;;
-  margin-bottom: 0.5em;;
-  animation: rambutan-red-neon-tubes 0.5s 4s forwards;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0.3em;
-    right: 0.6em;
-    border: 2px solid $red-tube-off;
-    height: 3em;
-    width: 2.5em;
-    border-radius: 43%;
-    animation: rambutan-red-neon-tubes 0.5s 4.5s forwards;
-  }
-    &:before {
-    content: '';
-    position: absolute;
-    top: 0.3em;
-    right: -0.6em;
-    border: 2px solid $red-tube-off;
-    height: 3em;
-    width: 2.5em;
-    border-radius: 43%;
-    animation: rambutan-red-neon-tubes 0.5s 5s forwards;
-  }
-}
-
-@keyframes rambutan-red-neon-tubes {
-  	0% {
-		box-shadow: none;
-    border: 2px solid $red-tube-off;
-	}
-	30% {
-		box-shadow: 0 0 5px rgba($red-glow, 0.6), inset 0 0 5px rgba($red-glow, 0.6);
-    border: 2px solid $red-tube-on;
-	}
-	60% {
-		box-shadow: 0 0 5px rgba($red-glow, 0.6),
-		  0 0 10px rgba($red-glow, 0.4), 
-      inset 0 0 5px rgba($red-glow, 0.6),
-      inset 0 0 10px rgba($red-glow, 0.4);
-    border: 2px solid $red-tube-on;
-	}
-	80% {
-		box-shadow: none;
-    border: 2px solid $red-tube-off;
-	}
-	100% {
-		box-shadow: 0 0 3px rgba($red-glow, 0.6),
+$glowing-tubes: 0 0 3px rgba($red-glow, 0.6),
 			0 0 6px rgba($red-glow, 0.4),
 			0 0 15px rgba($red-glow, 0.2),
 			0 0 10px rgba($red-glow, 0.1), 
@@ -93,33 +11,68 @@ $font: sans-serif;
 			inset 0 0 6px rgba($red-glow, 0.4),
 			inset 0 0 15px rgba($red-glow, 0.2),
 			inset 0 0 10px rgba($red-glow, 0.1);
-      border: 2px solid $red-tube-on;
-	}
-}
 
-@keyframes rambutan-red-neon-text  {
-	0% {
-		text-shadow: none;
-        color: $red-tube-off;
-	}
-	30% {
-		text-shadow: 0 0 5px rgba($red-glow, 0.6);
-        color: $red-tube-on;
-	}
-	60% {
-		text-shadow: 0 0 5px rgba($red-glow, 0.6),
-		   0 0 10px rgba($red-glow, 0.4);
-        color: $red-tube-on;
-	}
-	80% {
-		text-shadow: none;
-        color: $red-tube-off;
-	}
-	100% {
-		text-shadow: 0 0 5px rgba($red-glow, 0.6),
+$glowing-text: 0 0 5px rgba($red-glow, 0.6),
 			0 0 10px rgba($red-glow, 0.4),
 			0 0 18px rgba($red-glow, 0.2),
 			0 0 15px rgba($red-glow, 0.1);
-        color: $red-tube-on;
-	}
+
+#rambutan-logo-container {
+  background-color: #242424;
+  width: 12em;
+  height: 6em;
+  border: 1px solid #000;
+  border-radius: 1em;
+}
+
+#rambutan-logo-border {
+  border-radius: 0.8em;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: $glowing-tubes;
+  border: 2px solid $red-tube-on;
+}
+
+
+#rambutan-logo-text {
+  position: absolute;
+  left: 3.5em;
+  top: 0.5em;
+  color: $red-tube-on;
+  font-family: $font;
+  font-size: 14px;
+  text-shadow: $glowing-text;
+}
+
+#rambutan-logo {
+  position: relative;
+  height: 3em;;
+  width: 2.5em;
+  border-radius: 43%;
+  margin-left: 1em;;
+  margin-bottom: 0.5em;;
+  box-shadow: $glowing-tubes;
+  border: 2px solid $red-tube-on;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0.3em;
+    right: 0.6em;
+    height: 3em;
+    width: 2.5em;
+    border-radius: 43%;
+    box-shadow: $glowing-tubes;
+    border: 2px solid $red-tube-on;
+  }
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0.3em;
+    right: -0.6em;
+    height: 3em;
+    width: 2.5em;
+    border-radius: 43%;
+    box-shadow: $glowing-tubes;
+    border: 2px solid $red-tube-on;
+  }
 }
