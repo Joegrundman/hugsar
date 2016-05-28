@@ -68,7 +68,7 @@
     // height: 80px;
     width: 50px;
     height: 50px;
-    margin-left: 0;
+    margin-left: -25px;
     // border: 7px solid #f1f1f1;
     // border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -162,6 +162,7 @@
         // padding: 0 20px 20px 30px;
         padding: 0 12px 12px 20px;
         text-align: right;
+
     }
 
     .timeline>li .timeline-image {
@@ -213,12 +214,10 @@
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
+        border: none;
     }
 
     .timeline>li .timeline-image {
-        // width: 150px;
-        // height: 150px;
-       // margin-left: -75px;
         width: 100px;
         height: 100px;
         margin-left: -51px;
@@ -230,18 +229,12 @@
     // }
 
     .timeline>li .timeline-image h4 {
-        // margin-top: 30px;
-        // font-size: 18px;
-        // line-height: 26px;
         margin-top: 20px;
         font-size: 12px;
         line-height: 17px;
     }
 
     .img-me h4 {
-        // margin-top: 30px;
-        // font-size: 18px;
-        // line-height: 26px;
         margin-top: 20px;
         font-size: 12px;
         line-height: 17px;
@@ -251,11 +244,9 @@
         padding: 0 20px 20px;
     }
 }
-// dividing by 1/3
 @media(min-width:1200px) {
     
     .timeline>li {
-        // min-height: 170px;
         min-height: 110px;
     }
 
@@ -263,13 +254,9 @@
         padding: 0 13px 13px 66px;
         float: left;
         text-align: right;
-        // padding: 0 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
-        // width: 170px;
-        // height: 170px;
-        // margin-left: -85px;
         width: 110px;
         height: 110px;
         margin-left: -55px;
@@ -281,17 +268,14 @@
     // }
 
     .timeline>li .timeline-image h4 {
-        // margin-top: 40px;
         margin-top: 27px;
     }
 
     .timeline>li .img-me h4 {
-        // margin-top: 40px;
         margin-top: 27px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        // padding: 0 100px 20px 20px;
         float: right;
         text-align: left;
         padding: 0 66px 13px 13px;
