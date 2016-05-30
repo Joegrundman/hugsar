@@ -2,14 +2,14 @@
 layout: post
 section-type: post
 title: Testing You Tube
-category: tech
-tags: ['tutorial']
+category: videos
+tags: ['hugsar', 'HugsarOnYoutube']
 ---
 
 we are here to test the embedded you tube player
 
 
-{% include youtube.html id="3rNfc79d6Ec" %}
+{% include youtube.html link="3rNfc79d6Ec" %}
 
  
   
@@ -17,7 +17,7 @@ we are here to test the embedded you tube player
 
 --and how about this one
 
-{% include youtube.html id="vH1ZWhTfq1s" %}
+{% include youtube.html link="vH1ZWhTfq1s" %}
 
 
   
