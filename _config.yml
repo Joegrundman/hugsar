@@ -89,8 +89,6 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-blog-background-img: "../img/hugsar-live-1-edit.png"
-
 post-preview-words: 96
 
 paginate: 5
