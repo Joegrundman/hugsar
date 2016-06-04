@@ -1,9 +1,10 @@
 #intro-text {
-    opacity: 0.6;
-    font-size: 56px;
-    color: $hugsar-color3;
-    text-shadow: -10px 10px 0px $hugsar-color2,//#00e6e6,
-                 -20px 20px 0px $hugsar-color1;//#01cccc;
+    opacity: .5;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    color: darken($hugsar-color3, 5%);
+    text-shadow: -8px 8px 0px darken(rgba($hugsar-color2, .7), 5%),//#00e6e6,
+                 -16px 16px 0px darken(rgba($hugsar-color1, .7), 5%);//#01cccc;
                 // -30px 30px 0px #00bdbd;
 
 }
