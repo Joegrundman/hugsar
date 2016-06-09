@@ -113,15 +113,15 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/hugsar-bass.png"
-    date: "September 2016"
-    description: "Playing at Hammersmith Arena!"
+  # - image: "/img/timeline/hugsar-bass.png"
+  #   date: "September 2016"
+  #   description: "Playing at Hammersmith Arena!"
   - image: "/img/timeline/hugsar-guitar.png"
     date: " July 2016"
-    description: "Gig at pub in Bristol"
+    description: "Summer gigs to be announced"
   - image: "/img/timeline/hugsar-drummer.png"
     date: "June 2016"
-    description: "Recording new EP"
+    description: "EP to be released"
 
 # First image of the Timeline
 
