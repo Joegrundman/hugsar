@@ -3,13 +3,15 @@
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     color: darken($hugsar-color3, 5%);
-    text-shadow: -8px 8px 0px darken(rgba($hugsar-color2, .7), 5%),//#00e6e6,
-                 -16px 16px 0px darken(rgba($hugsar-color1, .7), 5%);//#01cccc;
+    text-shadow: -4px 4px 0px darken(rgba($hugsar-color2, .7), 5%),//#00e6e6,
+                 -8px 8px 0px darken(rgba($hugsar-color1, .7), 5%);//#01cccc;
                 // -30px 30px 0px #00bdbd;
 
 }
 @media(min-width:768px) {
     #intro-text {
         font-size: 64px;
+        text-shadow: -8px 8px 0px darken(rgba($hugsar-color2, .7), 5%),//#00e6e6,
+        -16px 16px 0px darken(rgba($hugsar-color1, .7), 5%);//#01cccc;
     }
 }
