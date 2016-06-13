@@ -1,10 +1,13 @@
 #intro-text {
     opacity: .5;
-    font-size: 64px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     color: darken($hugsar-color3, 5%);
     text-shadow: -8px 8px 0px darken(rgba($hugsar-color2, .7), 5%),//#00e6e6,
                  -16px 16px 0px darken(rgba($hugsar-color1, .7), 5%);//#01cccc;
                 // -30px 30px 0px #00bdbd;
 
+}
+@media(min-width:768px) {
+    font-size: 64px;
 }
