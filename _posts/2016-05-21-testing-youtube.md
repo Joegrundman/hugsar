@@ -1,21 +1,18 @@
 ---
 layout: post
 section-type: post
-title: Testing You Tube
+title: Hugsar On You Tube
 category: videos
 tags: ['hugsar', 'HugsarOnYoutube']
 ---
 
-we are here to test the embedded you tube player
-
+Two awesome youtubes of HUGSAR in action
 
 {% include youtube.html link="3rNfc79d6Ec" %}
 
  
   
-**Let's hope it works
-
---and how about this one
+And another one
 
 {% include youtube.html link="vH1ZWhTfq1s" %}
 
