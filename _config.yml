@@ -118,11 +118,11 @@ events:
   #   date: "September 2016"
   #   description: "Playing at Hammersmith Arena!"
   - image: "/img/timeline/hugsar-guitar.png"
-    date: " July 2016"
-    description: "Summer gigs to be announced"
+    date: " September 9th 2016"
+    description: "Cake launch party"
   - image: "/img/timeline/hugsar-drummer.png"
-    date: "June 2016"
-    description: "EP to be released"
+    date: "Aug 2016"
+    description: "Gig at Cube Arts Center"
 
 # First image of the Timeline
 

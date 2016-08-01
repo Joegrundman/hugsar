@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 
+puts Dir.pwd
 require 'date'
-
-POSTS_DIR = '_posts/'
+# this is a directory change to run from scripts folder
+POSTS_DIR = '../_posts/'
 
 post = ARGV[0]
 
