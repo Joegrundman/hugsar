@@ -17,8 +17,8 @@
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
-
-        {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
+        <!--  add | strip_html | to section below to remove unwanted html sections from latestpost preview-->
+        {{ post.content | truncatewords: site.post-preview-words | markdownify }}
 
         <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4>
 
