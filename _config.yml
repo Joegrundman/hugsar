@@ -117,9 +117,9 @@ events:
   - image: "/img/timeline/hugsar-guitar.png"
     date: " September 9th 2016"
     description: "Cake launch party"
-  - image: "/img/timeline/hugsar-drummer.png"
-    date: "Aug 2016"
-    description: "Gig at Cube Arts Center"
+  # - image: "/img/timeline/hugsar-drummer.png"
+  #   date: "Aug 2016"
+  #   description: "Gig at Cube Arts Center"
 
 # First image of the Timeline
 
