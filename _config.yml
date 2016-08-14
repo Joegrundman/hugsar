@@ -111,12 +111,12 @@ syntax-highlight: True
 ############
 
 events:
-  # - image: "/img/timeline/hugsar-bass.png"
-  #   date: "September 2016"
-  #   description: "Playing at Hammersmith Arena!"
+  - image: "/img/timeline/hugsar-bass.png"
+    date: "October 25th, the Nest, Bath with Wasuremono and Uther Moads"
+    description: "Playing at Hammersmith Arena!"
   - image: "/img/timeline/hugsar-guitar.png"
-    date: " September 2016 TBC"
-    description: "Cake launch party"
+    date: " September 9th 2016"
+    description: "Cry single launch party at the Old England, Bristol, with Umi"
   # - image: "/img/timeline/hugsar-drummer.png"
   #   date: "Aug 2016"
   #   description: "Gig at Cube Arts Center"
