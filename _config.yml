@@ -104,8 +104,8 @@ vkontakte-share: False
 
 disqus-shortname: "HUGSAR"
 
-syntax-highlight: True
-
+syntax-highlight: False
+swipe-instructions: False
 ############
 # Timeline #
 ############
