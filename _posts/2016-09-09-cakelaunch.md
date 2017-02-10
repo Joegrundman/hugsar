@@ -8,7 +8,7 @@ tags: [ 'hugsar', 'tag2' ]
 
 
 
-{% include imagelink.html link="https://s3.eu-central-1.amazonaws.com/neon-rambutan/Image+9.jpg" %}
+{% include imagelink.html link="/img/Image+9.jpg" %}
 
 <br />
 
